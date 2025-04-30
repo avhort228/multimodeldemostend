@@ -9,11 +9,11 @@ st.markdown("""
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
     body {
         font-family: 'Roboto', sans-serif;
-        background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+        background: linear-gradient(135deg, #e0f7fa, #ffffff);
         margin: 0;
         padding: 0;
         line-height: 1.6;
-        color: #000; /* Черный шрифт */
+        color: #333;
     }
     .main {
         max-width: 800px;
@@ -26,11 +26,11 @@ st.markdown("""
     }
     h1 {
         font-size: 2.5em;
-        color: #000; /* Черный шрифт */
+        color: #222;
     }
     h2 {
         font-size: 1.8em;
-        color: #000; /* Черный шрифт */
+        color: #555;
     }
     ul {
         list-style-type: none;
