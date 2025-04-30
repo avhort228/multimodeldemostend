@@ -9,7 +9,7 @@ st.markdown("""
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
     body {
         font-family: 'Roboto', sans-serif;
-        background: linear-gradient(135deg, #e0f7fa, #ffffff);
+        background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
         margin: 0;
         padding: 0;
         line-height: 1.6;
@@ -21,7 +21,7 @@ st.markdown("""
         padding: 40px;
         background-color: #fff;
         border-radius: 12px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         text-align: center;
     }
     h1 {
@@ -84,6 +84,25 @@ if language == "RU":
             <li>💸 ML-решения слишком сложны и дороги для внедрения</li>
             <li>📉 Бюджет уходит в никуда, CAC растёт, конверсия падает</li>
         </ul>
+        <h2>Наше решение:</h2>
+        <ul>
+            <li>📈 Персонализация в реальном времени</li>
+            <li>🔄 Автоматическое тестирование гипотез</li>
+            <li>🔗 Простое REST API</li>
+            <li>👥 Без команды ML</li>
+        </ul>
+        <h2>Для кого:</h2>
+        <ul>
+            <li>👨‍💼 Маркетологам</li>
+            <li>👩‍💻 CRM-командам</li>
+            <li>👨‍🔧 Разработчикам</li>
+        </ul>
+        <h2>Результат:</h2>
+        <ul>
+            <li>📊 +30–50% к конверсии</li>
+            <li>💰 –20% к CAC</li>
+            <li>🚀 Рост ROI с первого месяца</li>
+        </ul>
         <button>Оставить заявку</button>
     </div>
     """, unsafe_allow_html=True)
@@ -98,6 +117,25 @@ else:
             <li>❌ Customers receive irrelevant offers</li>
             <li>💸 ML solutions are complex and expensive</li>
             <li>📉 Result: low conversion, high CAC, wasted budget</li>
+        </ul>
+        <h2>Our solution:</h2>
+        <ul>
+            <li>📈 Real-time personalization</li>
+            <li>🔄 Automated hypothesis testing</li>
+            <li>🔗 Simple REST API</li>
+            <li>👥 No ML team required</li>
+        </ul>
+        <h2>For:</h2>
+        <ul>
+            <li>👨‍💼 Marketing teams</li>
+            <li>👩‍💻 CRM specialists</li>
+            <li>👨‍🔧 Developers</li>
+        </ul>
+        <h2>Results:</h2>
+        <ul>
+            <li>📊 +30–50% conversion uplift</li>
+            <li>💰 –20% CAC</li>
+            <li>🚀 ROI growth from month one</li>
         </ul>
         <button>Request a demo</button>
     </div>
