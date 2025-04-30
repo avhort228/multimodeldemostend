@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Установка страницы
-st.set_page_config(page_title="AI для персонализации", layout="centered")
+st.set_page_config(page_title="AI for Personalized Marketing", layout="centered")
 
 # Стили
 st.markdown("""
@@ -13,7 +13,7 @@ st.markdown("""
         margin: 0;
         padding: 0;
         line-height: 1.6;
-        color: #333;
+        color: #000; /* Черный шрифт */
     }
     .main {
         max-width: 800px;
@@ -26,11 +26,11 @@ st.markdown("""
     }
     h1 {
         font-size: 2.5em;
-        color: #222;
+        color: #000; /* Черный шрифт */
     }
     h2 {
         font-size: 1.8em;
-        color: #555;
+        color: #000; /* Черный шрифт */
     }
     ul {
         list-style-type: none;
@@ -68,75 +68,37 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Переключатель языка
-language = st.radio("Выберите язык / Choose language", ("RU", "EN"))
-
 # Контент
-if language == "RU":
-    st.markdown("""
-    <div class="main">
-        <h1>🤖 AI для персонализации маркетинговых сообщений в реальном времени</h1>
-        <h2>Проблема:</h2>
-        <ul>
-            <li>🚀 Маркетологи неделями настраивают сегменты вручную</li>
-            <li>✅ Тестируются 2–3 гипотезы вместо сотен</li>
-            <li>❌ Клиенты получают неактуальные предложения</li>
-            <li>💸 ML-решения слишком сложны и дороги для внедрения</li>
-            <li>📉 Бюджет уходит в никуда, CAC растёт, конверсия падает</li>
-        </ul>
-        <h2>Наше решение:</h2>
-        <ul>
-            <li>📈 Персонализация в реальном времени</li>
-            <li>🔄 Автоматическое тестирование гипотез</li>
-            <li>🔗 Простое REST API</li>
-            <li>👥 Без команды ML</li>
-        </ul>
-        <h2>Для кого:</h2>
-        <ul>
-            <li>👨‍💼 Маркетологам</li>
-            <li>👩‍💻 CRM-командам</li>
-            <li>👨‍🔧 Разработчикам</li>
-        </ul>
-        <h2>Результат:</h2>
-        <ul>
-            <li>📊 +30–50% к конверсии</li>
-            <li>💰 –20% к CAC</li>
-            <li>🚀 Рост ROI с первого месяца</li>
-        </ul>
-        <button>Оставить заявку</button>
-    </div>
-    """, unsafe_allow_html=True)
-else:
-    st.markdown("""
-    <div class="main">
-        <h1>🤖 AI for real-time personalized marketing</h1>
-        <h2>Problem:</h2>
-        <ul>
-            <li>🚀 Marketers manually segment audiences for weeks</li>
-            <li>✅ Only 2–3 hypotheses tested instead of hundreds</li>
-            <li>❌ Customers receive irrelevant offers</li>
-            <li>💸 ML solutions are complex and expensive</li>
-            <li>📉 Result: low conversion, high CAC, wasted budget</li>
-        </ul>
-        <h2>Our solution:</h2>
-        <ul>
-            <li>📈 Real-time personalization</li>
-            <li>🔄 Automated hypothesis testing</li>
-            <li>🔗 Simple REST API</li>
-            <li>👥 No ML team required</li>
-        </ul>
-        <h2>For:</h2>
-        <ul>
-            <li>👨‍💼 Marketing teams</li>
-            <li>👩‍💻 CRM specialists</li>
-            <li>👨‍🔧 Developers</li>
-        </ul>
-        <h2>Results:</h2>
-        <ul>
-            <li>📊 +30–50% conversion uplift</li>
-            <li>💰 –20% CAC</li>
-            <li>🚀 ROI growth from month one</li>
-        </ul>
-        <button>Request a demo</button>
-    </div>
-    """, unsafe_allow_html=True)
+st.markdown("""
+<div class="main">
+    <h1>🤖 AI for real-time personalized marketing</h1>
+    <h2>Problem:</h2>
+    <ul>
+        <li>🚀 Marketers manually segment audiences for weeks</li>
+        <li>✅ Only 2–3 hypotheses tested instead of hundreds</li>
+        <li>❌ Customers receive irrelevant offers</li>
+        <li>💸 ML solutions are complex and expensive</li>
+        <li>📉 Result: low conversion, high CAC, wasted budget</li>
+    </ul>
+    <h2>Our solution:</h2>
+    <ul>
+        <li>📈 Real-time personalization</li>
+        <li>🔄 Automated hypothesis testing</li>
+        <li>🔗 Simple REST API</li>
+        <li>👥 No ML team required</li>
+    </ul>
+    <h2>For:</h2>
+    <ul>
+        <li>👨‍💼 Marketing teams</li>
+        <li>👩‍💻 CRM specialists</li>
+        <li>👨‍🔧 Developers</li>
+    </ul>
+    <h2>Results:</h2>
+    <ul>
+        <li>📊 +30–50% conversion uplift</li>
+        <li>💰 –20% CAC</li>
+        <li>🚀 ROI growth from month one</li>
+    </ul>
+    <button>Request a demo</button>
+</div>
+""", unsafe_allow_html=True)
